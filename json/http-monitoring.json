@@ -1,0 +1,28 @@
+{
+  "dashboard": {
+    "editable": true,
+    "id": null,
+    "timezone": "",
+    "tags": ["templated" ],
+    "title": "HTTP Monitoring",
+    "overwrite": true,
+    "rows": [
+      {
+        "collapse": false,
+        "height": 250,
+        "panels": [
+        ],
+        "showTitle": true,
+        "title": "Website Monitoring",
+        "titleSize": "h4"
+      }
+    ],
+    "schemaVersion": 14,
+    "version": 15,
+    "style": "dark",
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    }
+  }
+}

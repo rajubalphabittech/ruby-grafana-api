@@ -1,0 +1,66 @@
+{
+  "aliasColors": {
+  },
+  "bars": false,
+  "dashLength": 10,
+  "dashes": false,
+  "datasource": "Prometheus",
+  "fill": 2,
+  "id": 1,
+  "legend": {
+    "alignAsTable": true,
+    "avg": true,
+    "current": false,
+    "max": true,
+    "min": true,
+    "rightSide": false,
+    "show": true,
+    "total": false,
+    "values": true
+  },
+  "lines": true,
+  "linewidth": 1,
+  "nullPointMode": "null",
+  "percentage": false,
+  "pointradius": 5,
+  "points": false,
+  "renderer": "flot",
+  "spaceLength": 10,
+  "span": 4,
+  "stack": false,
+  "steppedLine": false,
+  "targets": [
+    {
+      "expr": "probe_duration_seconds{instance=\"CHANGEME\"}",
+      "format": "time_series",
+      "intervalFactor": 2,
+      "legendFormat": "{{instance}}",
+      "refId": "A",
+      "step": 10
+    }
+  ],
+  "timeFrom": "1h",
+  "title": "CHANGEME - Monitoring (ms)",
+  "tooltip": {
+    "shared": true,
+    "sort": 0,
+    "value_type": "individual"
+  },
+  "type": "graph",
+  "xaxis": {
+    "mode": "time",
+    "show": true
+  },
+  "yaxes": [
+    {
+      "format": "ms",
+      "logBase": 1,
+      "show": true
+    },
+    {
+      "format": "short",
+      "logBase": 1,
+      "show": true
+    }
+  ]
+}
