@@ -22,6 +22,7 @@ I think names are self explanatory
 To quickly provide everything:
 
 - createAPIkey.rb
+- createDatasource.rb
 - createDashboard.rb
 - importPanelElements.rb
 
