@@ -17,7 +17,7 @@ Prometheus Targets Endpoints are in the json/targets.json file
 
 You can setup the full environment and have a go with:
 
-	https://github.com/rgibe/docker-prometheus-grafana
+https://github.com/rgibe/docker-prometheus-grafana
 
 ## How It Works
 
